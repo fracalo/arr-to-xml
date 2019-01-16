@@ -1,0 +1,35 @@
+{
+  "name": "fracalo/arr2xml",
+  "description": "A php class that converts multidimensional arrays to xml",
+  "keywords": [
+    "convert",
+    "array",
+    "xml"
+  ],
+  "homepage": "https://github.com/fracalo/arr2xml",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Francesco Calo",
+      "email": "fcaloisme@gmail.com",
+      "homepage": "https://fcalo.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fracalo\\Arr2Xml\\" : "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4":{
+      "Fracalo\\Arr2Xml\\Test\\": "tests"
+    }
+  }
+}
