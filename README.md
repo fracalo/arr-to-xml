@@ -16,7 +16,7 @@ composer require fracalo/arr2xml
 ```php
 use Fracalo\Arr2Xml\Arr2Xml;
 
-protected static $data = [
+$payload = [
     '_nodeName' => 'root',
     '_val' => [
         [
