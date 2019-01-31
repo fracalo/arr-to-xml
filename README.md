@@ -14,6 +14,8 @@ composer require fracalo/arr2xml
 
 #### usage examples
 ```php
+use Fracalo\Arr2Xml\Arr2Xml;
+
 protected static $data = [
     '_nodeName' => 'root',
     '_val' => [
@@ -41,7 +43,7 @@ protected static $data = [
     ]
 ];
 
-$x = new Xml('1.0', 'UTF-8');
+$x = new Arr2Xml('1.0', 'UTF-8');
 $xml = $x->convert($payload);
 
 ```
